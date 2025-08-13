@@ -19,4 +19,9 @@ public class TestingRenderApplication {
     public String getOne() {
         return "This is the first endpoint";
     }
+
+    @GetMapping("/two")
+    public String getTwo() {
+        return "Second endpoint successfully deployed on render";
+    }
 }
